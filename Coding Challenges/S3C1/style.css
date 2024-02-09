@@ -1,0 +1,27 @@
+article {
+  border: 5px solid black;
+  font-family: sans-serif;
+}
+p strong {
+  font-size: 20px;
+}
+button {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  min-width: 100px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+.tag {
+  font-weight: bold;
+  color: grey;
+  text-transform: uppercase;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: grey;
+}
