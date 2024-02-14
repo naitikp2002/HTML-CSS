@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .svg-icon {
+        /* margin-inline: 15px; */
+        padding: 15px;
+        width: 25px;
+        height: 25px;
+        stroke: #0d8c13;
+        border-radius: 50%;
+        border: 1px solid #0d8c13;
+      }
+      .svg-icon:hover {
+        background-color: #0d8c13;
+        stroke: white;
+        width: 25px;
+        height: 25px;
+      }
+      /* .box-icon {
+        margin-inline: 15px;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #0d8c13;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box-icon:hover {
+        background-color: #0d8c13;
+        stroke: white;
+      } */
+      .container {
+        margin-top: 100px;
+        gap: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .number {
+        height: 20px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        /* margin-inline-end: 15px; */
+        font-size: x-large;
+        border: 1px solid transparent;
+      }
+      .number:hover {
+        background-color: #0d8c13;
+        color: white;
+        border: 1px solid #0d8c13;
+        border-radius: 50%;
+      }
+      .span {
+        margin-inline-end: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <svg
+        class="svg-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 19.5 8.25 12l7.5-7.5"
+        />
+      </svg>
+      <div class="number">1</div>
+      <div class="number">2</div>
+      <div class="number">3</div>
+      <div class="number">4</div>
+      <div class="number">5</div>
+      <div class="span">...</div>
+      <div class="number">23</div>
+      <svg
+        class="svg-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m8.25 4.5 7.5 7.5-7.5 7.5"
+        />
+      </svg>
+    </div>
+  </body>
+</html>
